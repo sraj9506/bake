@@ -1,0 +1,97 @@
+
+  
+  /* Main Content Styling */
+  .page-container {
+    display: flex;
+  }
+  
+  .main-content {
+    margin-left: 270px;
+    width: 100%;
+    padding: 40px;
+    background-color: #f4f7fc;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Form Fields */
+  .input-field {
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+  }
+  
+  /* Buttons */
+  .submit-btn, .cancel-btn {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .cancel-btn {
+    background-color: #f4f7fc;
+    color: #007bff;
+    border: 1px solid #007bff;
+    margin-top: 10px;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #e0e6f1;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .page-container {
+      flex-direction: column;
+    }
+  
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  
+    .main-content {
+      margin-left: 0;
+      padding: 20px;
+    }
+  }
+  
